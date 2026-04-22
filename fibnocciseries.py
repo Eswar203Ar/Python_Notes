@@ -1,0 +1,10 @@
+num1 = 0
+num2 = 1
+print(num1, num2,end = ' ')
+i = 1
+while i <= 10:
+    next = num1 + num2
+    num1 = num2 
+    num2 = next
+    print(next,end= ' ')
+    i = i + 1
