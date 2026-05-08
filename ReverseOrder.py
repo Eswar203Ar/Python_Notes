@@ -1,3 +1,3 @@
-## print 10 to 1 reverse order
-for i in range(10,0,-1):
-    print(i)
+## Display words in reverse order
+words = ["python","Java","react","andriod","css"]
+print(words[::-1])
